@@ -1,0 +1,438 @@
+ /* chat page styling  */
+ .chat-container {
+     margin-top: 5rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 5rem;
+ }
+
+ @media (min-width:762px) {
+
+
+     .chat-sub-card {
+         height: 5rem;
+         padding-top: 15px;
+         border-top: 1px solid rgb(74, 73, 73);
+         display: flex;
+         justify-content: center;
+         width: 100%;
+         background-color: black;
+         padding-left: 5rem;
+     }
+ }
+
+ .input-box-in-chat {
+     width: 28rem;
+     height: 45px;
+     border: none;
+     font-size: 17px;
+     background-color: rgb(56, 55, 54);
+     color: white;
+     padding: 10px;
+
+
+
+ }
+
+ .input-box-in-chat::-webkit-scrollbar {
+     display: none;
+ }
+
+ .chat-send-bt {
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+     background-color: rgb(56, 55, 54);
+     border: none;
+     width: 5rem;
+     height: 45px;
+     color: rgb(241, 68, 169);
+     font-weight: 500;
+     font-size: 20px;
+
+ }
+
+ .camera-icon-in-chat {
+     width: 3rem;
+     height: 45px;
+     border: none;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     background-color: rgb(56, 55, 54);
+     color: rgb(179, 167, 167);
+     padding: 10px;
+     cursor: pointer;
+
+ }
+
+ #spinner-in-chat {
+     height: 50vh;
+     width: 50vw;
+ }
+
+ @media (max-width:762px) {
+
+     .chat-container {
+         margin: 1rem;
+         margin-bottom: 2rem;
+     }
+
+     .chat-sub-card {
+         height: 4rem;
+         padding: 10px;
+         border-top: 1px solid rgb(74, 73, 73);
+         display: flex;
+         justify-content: center;
+         width: 100%;
+         background-color: black;
+     }
+
+     .camera-icon-in-chat {
+         width: 3rem;
+         height: 40px;
+         border: none;
+         border-top-left-radius: 5px;
+         border-bottom-left-radius: 5px;
+         background-color: rgb(56, 55, 54);
+
+         font-size: 14px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .input-box-in-chat {
+         width: 95%;
+         border: none;
+         height: 40px;
+         font-size: 14px;
+         color: white;
+     }
+
+     .chat-send-bt {
+         width: 5.3rem;
+         height: 40px;
+         font-size: 18px;
+         background-color: rgb(56, 55, 54);
+     }
+
+
+
+     #spinner-in-chat {
+         width: 100%;
+         height: 80vh;
+     }
+ }
+
+
+ /* chat cards styling  */
+
+
+ @media (min-width:762px) {
+     .message-main-card {
+         width: 75vw;
+         padding-left: 15px;
+         margin-left: 15rem;
+     }
+
+     .chat-text-main-card {
+         width: 26rem;
+         background-color: rgb(40, 43, 46);
+         padding: 10px;
+         margin-bottom: 2rem;
+         border-radius: 10px;
+     }
+ }
+
+ .chat-user-card-right {
+     display: flex;
+     justify-content: flex-end;
+
+ }
+
+ .go-down {
+     position: fixed;
+     bottom: 5.5rem;
+     right: 1rem;
+     background-color: rgb(203, 209, 203);
+     color: black;
+     border-radius: 50%;
+     height: 35px;
+     width: 35px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
+
+ }
+
+ #chat-text-main-card1 {
+     background-color: hsl(139, 79%, 9%);
+     box-shadow: none;
+ }
+
+
+ .chat-img-user-card {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-bottom: 10px;
+     border-bottom: 1px solid rgb(74, 73, 73);
+
+
+ }
+
+
+ .text-card {
+     margin-top: 10px;
+
+ }
+
+ .chat-text {
+     font-size: 16px;
+ }
+
+ .date-in-chat {
+     font-size: 12px;
+ }
+
+
+ .delete-icon-in-chat {
+     font-size: 18px;
+     margin-bottom: 0.3rem;
+     cursor: pointer;
+     user-select: none;
+ }
+
+ .delete-icon-in-chat:hover {
+     color: red;
+ }
+
+
+ .chat-user-img {
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+ }
+
+ .user-name-in-chat {
+     font-size: 15px;
+     color: white;
+ }
+
+
+
+ @media (max-width:762px) {
+     .message-main-card {
+         margin-bottom: 3rem;
+         width: 100%;
+     }
+
+     .chat-text-main-card {
+         width: 80%;
+         background-color: rgb(40, 43, 46);
+         padding: 12px;
+         margin-bottom: 2rem;
+         border-radius: 10px;
+
+     }
+
+     .go-down {
+
+         bottom: 4.3rem;
+
+
+     }
+
+ }
+
+
+ /* all groups styling  */
+ @media (min-width:762px) {
+     .all-group-chat-sub-card {
+         display: flex;
+         width: 50vw;
+
+     }
+
+     .create-custom-group {
+         display: flex;
+         column-gap: 7px;
+         background-color: rgb(9, 126, 5);
+         align-items: center;
+         justify-content: center;
+         height: 40px;
+         width: 9rem;
+         border-radius: 5px;
+         cursor: pointer;
+         position: fixed;
+         right: 1rem;
+         top: 5rem;
+     }
+
+     .modal-create-custom-group {
+         position: fixed;
+         top: 4rem;
+         left: 0;
+         display: flex;
+         width: 100vw;
+         height: 100%;
+         justify-content: center;
+         align-items: center;
+         padding: 15px;
+         background-color: rgb(27, 25, 25, 0.7);
+         overflow: auto;
+         z-index: 1000;
+
+
+     }
+
+     .card {
+
+         margin-top: 2rem;
+         margin-bottom: 2rem;
+     }
+ }
+
+
+ .chat-all-groups-card {
+     display: flex;
+     column-gap: 15px;
+     align-items: center;
+     text-decoration: none;
+     color: white;
+     border: 1px solid rgb(95, 89, 89);
+     width: 20rem;
+     height: 50px;
+     padding: 15px;
+     border-radius: 5px;
+     justify-content: space-between;
+
+ }
+
+ @media (max-width:762px) {
+     .all-group-chat-sub-card {
+         display: flex;
+         width: 100%;
+
+     }
+
+     .chat-all-groups-card {
+         display: flex;
+         column-gap: 15px;
+         align-items: center;
+         text-decoration: none;
+         justify-content: space-between;
+         color: white;
+         border: 1px solid rgb(95, 89, 89);
+         width: 100%;
+         height: 50px;
+         padding: 15px;
+         border-radius: 5px;
+
+     }
+
+ }
+
+
+ #group-hide-condition {
+     display: none;
+ }
+
+ #group-show-condition {
+     display: block;
+ }
+
+ .all-group-chat-sub-card {
+     display: flex;
+     flex-direction: column;
+     row-gap: 15px;
+
+ }
+
+
+ .chat-all-group-name {
+     font-size: 19px;
+     margin-top: 9px;
+ }
+
+ .create-custom-group-text {
+     font-size: 18px;
+     margin-top: 8px;
+
+ }
+
+ .create-custom-group {
+     display: flex;
+     column-gap: 7px;
+     background-color: rgb(9, 126, 5);
+     align-items: center;
+     justify-content: center;
+     height: 40px;
+     width: 9rem;
+     border-radius: 5px;
+     cursor: pointer;
+     position: fixed;
+     right: 1rem;
+     bottom: 4.5rem;
+ }
+
+
+ .modal-create-custom-group {
+     position: fixed;
+     top: 0rem;
+     left: 0;
+     display: flex;
+     width: 100vw;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     padding: 15px;
+     background-color: rgb(27, 25, 25, 0.7);
+     overflow: auto;
+ }
+
+ .card {
+     margin-bottom: 4rem;
+ }
+
+ /* personal group styling  */
+
+ .photo-card-in-personal {
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+     background-color: black;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+
+ }
+
+ .photo-in-personal {
+     max-width: 100%;
+     height: 500px;
+
+ }
+
+ .photo-in-personal-chat {
+     width: 100%;
+     margin-bottom: 10px;
+ }
+
+ @media (max-width:762px) {
+     .photo-in-personal {
+         width: 100%;
+         height: fit-content;
+     }
+
+     .photo-card-in-personal {
+         align-items: center;
+         width: 100%;
+         padding: 10px;
+         height: 100%;
+
+     }
+ }

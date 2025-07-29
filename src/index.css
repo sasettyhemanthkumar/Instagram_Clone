@@ -1,0 +1,38 @@
+ /* followers styling  */
+ .follower-cardin {
+    width: 50vw;
+
+
+ }
+
+ @media (max-width:762px) {
+    .follower-cardin {
+       width: 100%;
+
+    }
+ }
+
+ .remove-follower-bt {
+    width: 5rem;
+    height: 32px;
+    border: 1.5px solid white;
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 500;
+
+
+
+ }
+
+
+ /* offcanvas styling  */
+ .large-screen-comments-card {
+    overflow-y: auto;
+    height: 28rem;
+ }
+
+ .large-screen-comments-card::-webkit-scrollbar {
+    display: none;
+ }
