@@ -145,7 +145,7 @@ const AllGroups = () => {
                         <span className="material-symbols-outlined text-success" style={{ fontSize: "30px" }}>
                             groups
                         </span>
-                        <h5 className='chat-all-group-name text-success'>ChatHub Group</h5>
+                        <h5 className='chat-all-group-name text-success'>Instagram</h5>
                     </Link>
                 </div>
 
